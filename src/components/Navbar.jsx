@@ -10,7 +10,8 @@ const Navbar = ({ isLoggedIn, onLogout }) => {
         <Link to="/"><img src={Logo} alt="logo" className='logo'/><h2 className="navbar">Pet Haven</h2></Link>
         <ul>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/products">Products</Link></li>
+          <li><Link to="/adoption">Adoption</Link></li>
+          {isLoggedIn && <li><Link to="/release">Release</Link></li>}
           <li><Link to="/where">Where to find us</Link></li>
           <li><Link to="/faq">FAQ</Link></li>
           {!isLoggedIn && <li><Link to="/login">Login</Link></li>}

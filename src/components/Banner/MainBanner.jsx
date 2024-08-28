@@ -4,8 +4,11 @@ import '../components.css';
 
 export const MainBanner = () => {
   return (
-    <div>
-        <img src={DogImage} alt="main banner" className='bannerdog'/>
+    <div className='Banner-container'>
+        <img src={DogImage} alt="main banner" className='bannerdog'></img>
+        <div className="center_text">
+          <h3 className='title'>Welcome to Pet Haven</h3>
+        </div>
     </div>
   )
 }

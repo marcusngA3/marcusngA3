@@ -1,28 +1,28 @@
 import React, { useState } from 'react';
-import "./Form.css";
 
-const SignUp = () => {
-  const [username, setUsername] = useState('');
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [phone, setPhone] = useState('');
-  const [success, setSuccess] = useState(false); 
 
-  const handleSubmit = (e) => {
+export const Release = () => {
+    const [username, setUsername] = useState('');
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const [phone, setPhone] = useState('');
+    const [success, setSuccess] = useState(false); 
+
+    const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Signed up:', { username, email, password, phone });
+    console.log('Form:', { username, email, password, phone });
     
     setSuccess(true);
     setUsername('');
     setEmail('');
     setPassword('');
     setPhone('');
-  };
+    };
 
   return (
     <div>
-      <div id="sign-form">
-        <h1>Sign Up</h1>
+      <div id="release-form">
+        <h1>Release</h1>
         <form onSubmit={handleSubmit}>
           <label htmlFor="username">Username:</label>
             <input 
@@ -70,6 +70,6 @@ const SignUp = () => {
       </div>
     </div>
   );
-};
+}
 
-export default SignUp;
+export default Release;

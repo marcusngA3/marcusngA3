@@ -18,7 +18,7 @@ const Where = () => {
             
       </div>
       <h2>Punggol Branch</h2>
-      <p><b>Waterway Point Car Park</b></p>
+      <p><b>Waterway Point</b></p>
       <p>83 Punggol Central, Singapore 828761</p>
     </div>
   );

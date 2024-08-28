@@ -112,12 +112,36 @@
   background-position: center;
   color: black;
   background-repeat: no-repeat;
-  height: 1000px;
+  height: 800px;
   background-size: cover;
   width: 100%;
 }
 
+.Banner-container{
+  position: relative;
+  color: white;
+}
+
+.center_text{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title{
+  font-size: 70px;
+  font-weight: 900px;
+  text-shadow: -0.5px 0.5px 0 #acacac,
+                0.5px 0.5px 0 #acacac,
+                0.5px -0.5px 0 #acacac,
+                -0.5px -0.5px 0 #acacac;
+  color:rgb(52, 105, 175);
+  opacity: 90%;
+}
+
 .logo{
+  align-items: flex-end;
   width: 30px;
   height: 30px;
   bottom: 15%;

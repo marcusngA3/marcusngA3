@@ -81,6 +81,8 @@ main {
   position: relative;
   min-height: 100vh;
   padding: 25px;
+  border:#020202 1px;
+  outline: black 1px;
 }
 
 #content-wrap {
@@ -166,3 +168,34 @@ footer {
   justify-content: center;
   size: 100px;
 }
+
+.adoption-section {
+  text-align: center;
+  overflow: hidden;
+}
+
+.adoption-section2 {
+  align-items: center;
+  overflow: hidden;
+  display: flex;
+}
+
+.adoption-container {
+  position: relative;
+  left: 0%;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 25px; 
+  float: left;
+  flex-direction: column;
+}
+
+.card-item{
+  flex:auto;
+  align-items: center;
+  justify-content: center;
+  size: 100px;
+}
+

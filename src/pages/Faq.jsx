@@ -13,10 +13,10 @@ const Faq = () => {
           </div>
         </div>
         <section className='page-container2'><Accordion /></section>
-        <section className='page-container'>
-          <h1 className='Faqfont'>
-          Where to find us
-          </h1>
+        <section>
+          <p className='Faqfont'>
+          For more enquiries, contact us at <a onClick={() => window.location = 'mailto:yourmail@domain.com'}>petHaven@zmail.com</a>
+          </p>
         </section>
     </div> 
     
