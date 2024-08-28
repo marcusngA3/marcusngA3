@@ -66,7 +66,7 @@ export const Release = () => {
           <input type="submit" value="Submit" />
         </form>
 
-        {success && <div className="alert-success">Sign-up successful!</div>}
+        {success && <div className="alert-success">Submitted successfully!</div>}
       </div>
     </div>
   );
