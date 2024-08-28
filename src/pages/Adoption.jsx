@@ -5,6 +5,15 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import Bacon from '../../public/images/Bacon.jpg';
+import Bean from '../../public/images/Bean.jpg';
+import Bear from '../../public/images/bear.jpg';
+import Cheesy from '../../public/images/Cheesy.jpg';
+import Floof from '../../public/images/Floof.jpg';
+import Niko from '../../public/images/Niko.jpg';
+import Smooch from '../../public/images/Smooch.jpg';
+import Tracy from '../../public/images/Tracy.jpg';
+
 
 const Adoption = ({isLoggedIn}) => {
   console.log(isLoggedIn) ;
@@ -26,7 +35,7 @@ const Adoption = ({isLoggedIn}) => {
                 component="img"
                 alt="Bean"
                 height="250"
-                image="https://spca.org.sg/wp-content/uploads/2024/08/IMG-20240826-WA0053.jpg"
+                image={Bean}
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -49,7 +58,7 @@ const Adoption = ({isLoggedIn}) => {
                 component="img"
                 alt="Bear"
                 height="250"
-                image="https://spca.org.sg/wp-content/uploads/2024/04/bear.jpg"
+                image={Bear}
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -72,7 +81,7 @@ const Adoption = ({isLoggedIn}) => {
                 component="img"
                 alt="Cheesy"
                 height="250"
-                image="https://spca.org.sg/wp-content/uploads/2024/08/IMG-20240820-WA0031.jpg"
+                image={Cheesy}
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -95,7 +104,7 @@ const Adoption = ({isLoggedIn}) => {
                 component="img"
                 alt="Floof"
                 height="250"
-                image="https://spca.org.sg/wp-content/uploads/2024/07/IMG-20240709-WA0027.jpg"
+                image={Floof}
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -120,7 +129,7 @@ const Adoption = ({isLoggedIn}) => {
                 component="img"
                 alt="Bacon"
                 height="250"
-                image="https://spca.org.sg/wp-content/uploads/2023/07/IMG-20230705-WA0018.jpg"
+                image={Bacon}
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -143,7 +152,7 @@ const Adoption = ({isLoggedIn}) => {
                 component="img"
                 alt="Niko"
                 height="250"
-                image="https://spca.org.sg/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-10-at-18.47.00_b2ac09d8.jpg"
+                image={Niko}
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -166,7 +175,7 @@ const Adoption = ({isLoggedIn}) => {
                 component="img"
                 alt="Smooch"
                 height="250"
-                image="https://spca.org.sg/wp-content/uploads/2024/08/IMG-20240816-WA0021.jpg"
+                image={Smooch}
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -189,7 +198,7 @@ const Adoption = ({isLoggedIn}) => {
                 component="img"
                 alt="Tracy"
                 height="250"
-                image="https://spca.org.sg/wp-content/uploads/2024/06/IMG-20240612-WA0046.jpg"
+                image={Tracy}
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
